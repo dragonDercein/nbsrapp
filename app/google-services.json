@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "33428063978",
+    "firebase_url": "https://nbsrapp-d888d.firebaseio.com",
+    "project_id": "nbsrapp-d888d",
+    "storage_bucket": "nbsrapp-d888d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:33428063978:android:1dcad57ae676a0311ff993",
+        "android_client_info": {
+          "package_name": "com.example.nbsrapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "33428063978-476jvonu7e8tr1f1n4nd6f72rhrtppod.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nbsrapp",
+            "certificate_hash": "3f8e81af60bf9e0dab35c8ba956775563c57c6b7"
+          }
+        },
+        {
+          "client_id": "33428063978-3rdoh6bn82ao76donosltr81bk0ckron.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRo5f549-8vScDkNaVYcRckMWVKV7RHG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "33428063978-3rdoh6bn82ao76donosltr81bk0ckron.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

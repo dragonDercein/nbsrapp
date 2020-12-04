@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crearInstitucion">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="382dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="@+id/idTv1"
+        app:layout_constraintTop_toBottomOf="@+id/idTv1">
+
+        <EditText
+            android:id="@+id/idNI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nombre de la Institución"
+            android:inputType="textPersonName"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/idDI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0sp"
+            android:layout_marginTop="10sp"
+            android:hint="Direccion de la Institución"
+            android:inputType="textPersonName"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/idGI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0sp"
+            android:layout_marginTop="10sp"
+            android:ems="10"
+            android:hint="Gerente de lnstitución"
+            android:inputType="textPersonName"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/idtelefono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0sp"
+            android:layout_marginTop="10sp"
+            android:hint="Telefono de la Institución"
+            android:inputType="phone"
+            android:textSize="17dp" />
+<!--
+        <EditText
+            android:id="@+id/idNEOI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0sp"
+            android:layout_marginTop="10sp"
+            android:hint="Nombre del Encargado de Operaciones"
+            android:inputType="textPersonName"
+            android:textSize="17dp" />
+-->
+        <EditText
+            android:id="@+id/idCE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0sp"
+            android:layout_marginTop="10sp"
+            android:hint="Correo Electrónico de la Institucion (Login)"
+            android:inputType="textEmailAddress"
+            android:textSize="17dp" />
+
+        <EditText
+            android:id="@+id/idpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0sp"
+            android:layout_marginTop="10sp"
+            android:textSize="17dp"
+            android:layout_marginLeft="0sp"
+            android:ems="10"
+            android:hint="Cotraseña"
+            android:inputType="textPassword"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/idconfirmarpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0sp"
+            android:layout_marginTop="10sp"
+            android:textSize="17dp"
+            android:layout_marginLeft="16dp"
+            android:hint="Confirme contraseña"
+            android:inputType="textPassword"
+            app:layout_constraintStart_toStartOf="parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/idCrearIns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="crearI"
+            android:text="Crear Inst"
+            android:textAlignment="center"
+            android:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/idRegresar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="regresar"
+            android:text="Cancelar"
+            android:textAlignment="center"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/idTv1"
+        android:layout_width="382dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:background="#CDDC39"
+        android:text="Bienvenido, Ud. puede crear una cuenta Insitucional."
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/idTv2"
+        android:layout_width="382dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="30dp"
+        android:text="Ingrese los datos de la Institución para crear una cuenta adecuadamente."
+        android:textColor="#ED0505"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout3"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+</androidx.constraintlayout.widget.ConstraintLayout>
